@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Messenger</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="left">Love Chatbot</div>
+                <div class="middle">
+                    <h3>Chatbot</h3>
+                </div>
+
+                <div class="right">
+                    <div class="avatar"><img src="{% static 'img/avatar.png' %}"></div>
+                    NoName
+                </div>
+            </div>
+        </header>
+
+        {% block body %}{% endblock %}
+    </div>
+    <script type="text/javascript" src="{% static 'js/chatbot.js' %}"></script>
+</body>
+</html>
