@@ -18,8 +18,8 @@ function addMessage2Grid(element) {
 // Tạo ra message, mcase = 0 hoặc 1
 // mcase = 0: sent
 // mcase = 1: received
-CASE_RECEIVED = 1;
-CASE_SENT = 0;
+CASE_RECEIVED = 0;
+CASE_SENT = 1;
 function createMessage(message, mcase) {
     let tmp = document.createElement("div");
     let className = mcase ? "received" : "sent";
@@ -28,12 +28,14 @@ function createMessage(message, mcase) {
     tmp.innerHTML = `<div class="message-${className}">
                 <p>${message}</p>
             </div>`;
+    console.log("hjjhhjjhj");
+    console.log(tmp);
     addMessage2Grid(tmp);
 }
 
 function sendMessage() {
     let mess = messeage.value;
-    createMessage(mess, CASE_RECEIVED);
+    createMessage(mess, CASE_SENT);
     messeage.value = "";
     // TO-DO: Lam mo khung nhap tin nhan
     // TO-DO: Lam tin nhan dong cho phan hoi
@@ -63,10 +65,10 @@ const csrftoken = getCookie("csrftoken");
 
 function getMessage(sent) {
     console.log("pre", sent);
+    const csrftoken = getCookie("csrftoken");
     fetch(API_URL, {
         method: "POST",
         headers: { "X-CSRFToken": csrftoken },
-        mode: "same-origin",
         body: JSON.stringify({
             message: sent,
         }),
