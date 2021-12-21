@@ -32,18 +32,6 @@ function createMessage(message, mcase) {
     addMessage2Grid(tmp);
 }
 
-function sendMessage() {
-    let mess = message.value;
-    createMessage(mess, CASE_SENT);
-    message.value = "";
-    // TO-DO: Lam mo khung nhap tin nhan
-    submitBtn.style.opacity = "0.1";
-    submitBtn.style.cursor = "not-allowed";
-
-    // TO-DO: Lam tin nhan dong cho phan hoi
-    return mess;
-}
-
 // Xử lý csrf token
 function getCookie(name) {
     let cookieValue = null;
@@ -62,19 +50,33 @@ function getCookie(name) {
     }
     return cookieValue;
 }
-const csrftoken = getCookie("csrftoken");
-// ----------------------------------------------------------------------------
+// ---------------------------------------------------------------
 
-function getMessage(sent) {
-    console.log("pre", sent);
-    const csrftoken = getCookie("csrftoken");
-    fetch(API_URL, {
+function sendMessage() {
+    let mess = message.value;
+    // Gửi tin nhắn, tạo Promise để hàm nhận sẽ xử lý kết quả
+    let csrftoken = getCookie("csrftoken");
+
+    let promise = fetch(API_URL, {
         method: "POST",
         headers: { "X-CSRFToken": csrftoken },
         body: JSON.stringify({
-            message: sent,
+            message: mess,
         }),
-    })
+    });
+
+    createMessage(mess, CASE_SENT);
+    message.value = "";
+    // TO-DO: Lam mo khung nhap tin nhan
+    submitBtn.style.opacity = "0.1";
+    submitBtn.style.cursor = "not-allowed";
+
+    // TO-DO: Lam tin nhan dong cho phan hoi
+    return promise;
+}
+
+function getMessage(promise) {
+    promise
         .then((res) => res.json())
         .then((data) => {
             console.log(data);
@@ -90,13 +92,16 @@ function getMessage(sent) {
                 // TO_DO: Chuyen tin nhan cuoi sang class error
             }
         })
-        .catch((err) => console.error(err));
+        .catch((err) => {
+            console.error(err);
+            // TO_DO: Chuyen tin nhan cuoi sang class error
+        });
 }
 
 function submitEvent(e) {
     if (message.value) {
-        let mess = sendMessage();
-        getMessage(mess);
+        let promise = sendMessage();
+        getMessage(promise);
     }
 }
 
@@ -107,8 +112,8 @@ submitBtn.addEventListener("click", submitEvent);
 document.addEventListener("keyup", function (e) {
     if (e.keyCode === 13) {
         if (message.value) {
-            let mess = sendMessage();
-            getMessage(mess);
+            let promise = sendMessage();
+            getMessage(promise);
         }
     }
 });
