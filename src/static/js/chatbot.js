@@ -32,6 +32,21 @@ function createMessage(message, mcase) {
     addMessage2Grid(tmp);
 }
 
+function createWaitMessage() {
+    tmp = document.createElement("div");
+    tmp.className = "col-message-received";
+    tmp.innerHTML = `<div class="col-message-received" id="message-wait">
+        <div class="message-received message-wait">
+            <p>
+                <span class="middot">&#8226;</span>
+                <span class="middot">&#8226;</span>
+                <span class="middot">&#8226;</span>
+            </p>
+        </div>
+    </div>`;
+    addMessage2Grid(tmp);
+}
+
 // Xử lý csrf token
 function getCookie(name) {
     let cookieValue = null;
@@ -72,6 +87,7 @@ function sendMessage() {
     submitBtn.style.cursor = "not-allowed";
 
     // TO-DO: Lam tin nhan dong cho phan hoi
+    createWaitMessage();
     return promise;
 }
 
@@ -81,11 +97,17 @@ function getMessage(promise) {
         .then((data) => {
             console.log(data);
             if (data.status) {
-                createMessage(data.message, CASE_RECEIVED);
+                // Delay 1s vì quá nhanh
+                setTimeout(function () {
+                    // Xoá bỏ tin nhắn chờ
+                    document.getElementById("message-wait").remove();
 
-                // Cho phep gui tin nhan tiep theo sau khi nhan tin nhan
-                submitBtn.style.opacity = "1";
-                submitBtn.style.cursor = "pointer";
+                    createMessage(data.message, CASE_RECEIVED);
+
+                    // Cho phep gui tin nhan tiep theo sau khi nhan tin nhan
+                    submitBtn.style.opacity = "1";
+                    submitBtn.style.cursor = "pointer";
+                }, 1000);
             } else {
                 console.log(data.error_message);
                 alert(data.error_message);

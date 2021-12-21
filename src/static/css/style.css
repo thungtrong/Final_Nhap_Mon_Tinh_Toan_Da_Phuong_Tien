@@ -357,3 +357,35 @@ main {
 .compose .compose-dock img:hover {
     opacity: 0.5;
 }
+
+.message-wait {
+    padding-top: 1px;
+}
+
+span.middot {
+    font-weight: 900;
+    position: relative;
+    animation: updown 1s infinite;
+    animation-direction: alternate;
+    font-size: 18px;
+}
+
+p span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+p span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes updown {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 5px;
+    }
+    100% {
+        top: -5px;
+    }
+}
