@@ -23,13 +23,14 @@ CASE_SENT = 0;
 function createMessage(message, mcase) {
     let tmp = document.createElement("div");
     let className = mcase ? "received" : "sent";
-    // TO-DO: Lam mo doi voi tin nhan gui di chua phan hoi
+
     tmp.className = `col-message-${className}`;
     tmp.innerHTML = `<div class="message-${className}">
                 <p>${message}</p>
             </div>`;
 
     addMessage2Grid(tmp);
+    return tmp;
 }
 
 function createWaitMessage() {
@@ -47,6 +48,15 @@ function createWaitMessage() {
     addMessage2Grid(tmp);
 }
 
+function removeWaitMessage() {
+    let dom = document.getElementById("message-wait");
+    if (dom) dom.remove();
+}
+
+function getLastMessageSent() {
+    let lastMessSent = document.getElementsByClassName("message-sent");
+    return lastMessSent[lastMessSent.length - 1];
+}
 // Xử lý csrf token
 function getCookie(name) {
     let cookieValue = null;
@@ -80,54 +90,55 @@ function sendMessage() {
         }),
     });
 
-    createMessage(mess, CASE_SENT);
+    createMessage(mess, CASE_SENT).firstChild.style.opacity = "0.5";
     message.value = "";
     // Lam mo khung nhap tin nhan
     submitBtn.style.opacity = "0.1";
     submitBtn.style.cursor = "not-allowed";
 
-    // Lam tin nhan dong cho phan hoi
-    createWaitMessage();
     return promise;
 }
 
-function getMessage(promise) {
-    promise
-        .then((res) => res.json())
-        .then((data) => {
-            console.log(data);
-            if (data.status) {
-                // Delay 1s vì quá nhanh
-                setTimeout(function () {
-                    // Xoá bỏ tin nhắn chờ
-                    document.getElementById("message-wait").remove();
+function getMessage(data) {
+    console.log(data);
+    if (data.status) {
+        // Delay 1s vì quá nhanh
+        setTimeout(function () {
+            // Xoá bỏ tin nhắn chờ
+            removeWaitMessage();
 
-                    createMessage(data.message, CASE_RECEIVED);
+            createMessage(data.message, CASE_RECEIVED);
 
-                    // Cho phep gui tin nhan tiep theo sau khi nhan tin nhan
-                    submitBtn.style.opacity = "1";
-                    submitBtn.style.cursor = "pointer";
-                }, 1000);
-            } else {
-                console.log(data.error_message);
-                alert(data.error_message);
-                // Chuyen tin nhan cuoi sang class error
-                let tmp = document.getElementsByClassName("message-sent");
-                tmp[tmp.length - 1].className.concat(" message-error");
-            }
-        })
-        .catch((err) => {
-            console.error(err);
-            // Chuyen tin nhan cuoi sang class error
-            let tmp = document.getElementsByClassName("message-sent");
-            tmp[tmp.length - 1].className.concat(" message-error");
-        });
+            // Cho phep gui tin nhan tiep theo sau khi nhan tin nhan
+            submitBtn.style.opacity = "1";
+            submitBtn.style.cursor = "pointer";
+        }, 1000);
+    } else {
+        console.log(data.error_message);
+        alert(data.error_message);
+
+        // Chuyen tin nhan cuoi sang class error
+        getLastMessageSent().className += " message-error";
+    }
 }
 
 function submitEvent(e) {
     if (message.value) {
-        let promise = sendMessage();
-        getMessage(promise);
+        sendMessage()
+            .then((res) => {
+                getLastMessageSent().style.opacity = 1;
+                // Tin nhắn động chờ phản hồi
+
+                createWaitMessage();
+                return res.json();
+            })
+            .then(getMessage)
+            .catch((err) => {
+                console.log("Loi");
+                removeWaitMessage();
+                // Chuyen tin nhan cuoi sang class error
+                getLastMessageSent().className += " message-error";
+            });
     }
 }
 
@@ -137,9 +148,6 @@ submitBtn.addEventListener("click", submitEvent);
 // Event "Enter" send mess
 document.addEventListener("keyup", function (e) {
     if (e.keyCode === 13) {
-        if (message.value) {
-            let promise = sendMessage();
-            getMessage(promise);
-        }
+        submitEvent(e);
     }
 });
