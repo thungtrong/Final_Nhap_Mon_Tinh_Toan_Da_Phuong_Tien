@@ -389,3 +389,23 @@ p span:nth-child(3) {
         top: -5px;
     }
 }
+
+.message-error {
+    background: rgb(3 101 198);
+}
+
+.message-error:after {
+    content: "!";
+    display: inline-table;
+    background: red;
+    border-radius: 50%;
+    width: 1.2em;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    left: -23px;
+}
+
+.message-error p {
+    display: inline-table;
+}

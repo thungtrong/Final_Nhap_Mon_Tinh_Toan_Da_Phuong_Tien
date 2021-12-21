@@ -82,11 +82,11 @@ function sendMessage() {
 
     createMessage(mess, CASE_SENT);
     message.value = "";
-    // TO-DO: Lam mo khung nhap tin nhan
+    // Lam mo khung nhap tin nhan
     submitBtn.style.opacity = "0.1";
     submitBtn.style.cursor = "not-allowed";
 
-    // TO-DO: Lam tin nhan dong cho phan hoi
+    // Lam tin nhan dong cho phan hoi
     createWaitMessage();
     return promise;
 }
@@ -111,12 +111,16 @@ function getMessage(promise) {
             } else {
                 console.log(data.error_message);
                 alert(data.error_message);
-                // TO_DO: Chuyen tin nhan cuoi sang class error
+                // Chuyen tin nhan cuoi sang class error
+                let tmp = document.getElementsByClassName("message-sent");
+                tmp[tmp.length - 1].className.concat(" message-error");
             }
         })
         .catch((err) => {
             console.error(err);
-            // TO_DO: Chuyen tin nhan cuoi sang class error
+            // Chuyen tin nhan cuoi sang class error
+            let tmp = document.getElementsByClassName("message-sent");
+            tmp[tmp.length - 1].className.concat(" message-error");
         });
 }
 
