@@ -1,11 +1,12 @@
 import asyncio
-from django.conf import settings
 import os
+from django.conf import settings
 from django.http.response import HttpResponse
 from django.shortcuts import render
+from django.views.decorators.csrf import ensure_csrf_cookie
 import json
-from tensorflow.keras.models import load_model
 import tensorflow as tf
+from tensorflow.keras.models import load_model
 import pickle
 import numpy as np
 
@@ -61,5 +62,8 @@ async def get_answer(request):
 
 
 # Create your views here.
+
+# Decorator chắn chắn rằng khi render views thì sẽ gửi csrftoken cho client
+@ensure_csrf_cookie
 def index(request):
     return render(request, 'index.html')

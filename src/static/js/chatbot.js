@@ -1,12 +1,12 @@
 ROOT_URL = "http://localhost:8000";
 API_URL = ROOT_URL + "/chatbot/api/get_answer";
-messeage = document.getElementById("message-input");
+message = document.getElementById("message-input");
 gridMessage = document.getElementsByClassName("grid-message")[0];
 submitBtn = document.getElementById("submit-btn");
 content = document.getElementsByClassName("col-content")[0];
 
 function scrollToEnd(element) {
-    console.log(element.scrollTop, element.scrollHeight);
+    // console.log(element.scrollTop, element.scrollHeight);
     element.scrollTop = element.scrollHeight;
 }
 
@@ -16,10 +16,10 @@ function addMessage2Grid(element) {
 }
 
 // Tạo ra message, mcase = 0 hoặc 1
-// mcase = 0: sent
 // mcase = 1: received
-CASE_RECEIVED = 0;
-CASE_SENT = 1;
+// mcase = 0: sent
+CASE_RECEIVED = 1;
+CASE_SENT = 0;
 function createMessage(message, mcase) {
     let tmp = document.createElement("div");
     let className = mcase ? "received" : "sent";
@@ -28,16 +28,18 @@ function createMessage(message, mcase) {
     tmp.innerHTML = `<div class="message-${className}">
                 <p>${message}</p>
             </div>`;
-    console.log("hjjhhjjhj");
-    console.log(tmp);
+
     addMessage2Grid(tmp);
 }
 
 function sendMessage() {
-    let mess = messeage.value;
+    let mess = message.value;
     createMessage(mess, CASE_SENT);
-    messeage.value = "";
+    message.value = "";
     // TO-DO: Lam mo khung nhap tin nhan
+    submitBtn.style.opacity = "0.1";
+    submitBtn.style.cursor = "not-allowed";
+
     // TO-DO: Lam tin nhan dong cho phan hoi
     return mess;
 }
@@ -77,18 +79,22 @@ function getMessage(sent) {
         .then((data) => {
             console.log(data);
             if (data.status) {
-                createMessage(data.message, CASE_SENT);
+                createMessage(data.message, CASE_RECEIVED);
+
+                // Cho phep gui tin nhan tiep theo sau khi nhan tin nhan
+                submitBtn.style.opacity = "1";
+                submitBtn.style.cursor = "pointer";
             } else {
                 console.log(data.error_message);
-                alert(error_message);
-                // TO_DO: Xoa tin nhan cuoi cung
+                alert(data.error_message);
+                // TO_DO: Chuyen tin nhan cuoi sang class error
             }
         })
         .catch((err) => console.error(err));
 }
 
-function submitEvent(event) {
-    if (messeage.value) {
+function submitEvent(e) {
+    if (message.value) {
         let mess = sendMessage();
         getMessage(mess);
     }
@@ -96,3 +102,13 @@ function submitEvent(event) {
 
 scrollToEnd(content);
 submitBtn.addEventListener("click", submitEvent);
+
+// Event "Enter" send mess
+document.addEventListener("keyup", function (e) {
+    if (e.keyCode === 13) {
+        if (message.value) {
+            let mess = sendMessage();
+            getMessage(mess);
+        }
+    }
+});
