@@ -93,7 +93,7 @@ function sendMessage() {
     createMessage(mess, CASE_SENT).firstChild.style.opacity = "0.5";
     message.value = "";
     // Lam mo khung nhap tin nhan
-    submitBtn.style.opacity = "0.1";
+    submitBtn.style.opacity = "0.5";
     submitBtn.style.cursor = "not-allowed";
 
     return promise;

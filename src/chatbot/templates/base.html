@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Chatbot Messenger</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="{% static 'img/chatbot_1.ico' %}" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
 </head>
@@ -12,14 +14,24 @@
     <div class="wrapper">
         <header>
             <div class="container">
-                <div class="left">Love Chatbot</div>
+                <div class="left">
+                    <img src="{% static 'img/chatbot.svg' %}">
+                    <p>Love Chatbot</p>
+                </div>
                 <div class="middle">
-                    <h3>Chatbot</h3>
+                    <h3>Chats</h3>
                 </div>
 
                 <div class="right">
-                    <div class="avatar"><img src="{% static 'img/avatar.png' %}"></div>
-                    NoName
+                    <div class="avatar"><img src="{% static 'img/avatar-1.png' %}"></div>
+                    <p>Ẩn danh</p>
+
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                          <input type="checkbox" id="checkbox" />
+                          <div class="slider round"></div>
+                        </label>
+                    </div>
                 </div>
             </div>
         </header>
@@ -27,5 +39,6 @@
         {% block body %}{% endblock %}
     </div>
     <script type="text/javascript" src="{% static 'js/chatbot.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/changeTheme.js' %}"></script>
 </body>
 </html>
