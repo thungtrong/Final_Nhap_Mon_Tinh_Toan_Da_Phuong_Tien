@@ -424,6 +424,7 @@ p span:nth-child(3) {
     background: red;
     border-radius: 50%;
     width: 1.2em;
+    height: 1.2em;
     text-align: center;
     font-weight: 600;
     position: absolute;
