@@ -241,6 +241,7 @@ main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-direction: row;
+    width:100%;
 }
 
 .grid-message > [class^="col-"] {
@@ -327,10 +328,11 @@ main {
 }
 
 .message {
-    min-height: 53.33203125em;
+    /* min-height: 53.33203125em; */
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
+    /* justify-content: space-between; */
     padding: 20px;
 }
 

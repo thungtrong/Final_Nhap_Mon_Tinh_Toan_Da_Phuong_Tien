@@ -36,7 +36,8 @@ function createMessage(message, mcase) {
 function createWaitMessage() {
     tmp = document.createElement("div");
     tmp.className = "col-message-received";
-    tmp.innerHTML = `<div class="col-message-received" id="message-wait">
+    tmp.id = "message-wait";
+    tmp.innerHTML = `<div class="col-message-received">
         <div class="message-received message-wait">
             <p>
                 <span class="middot">&#8226;</span>
