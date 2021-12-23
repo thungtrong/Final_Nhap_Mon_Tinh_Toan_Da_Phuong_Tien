@@ -34,7 +34,7 @@ Gửi tin nhắn -> nhận phản hồi
 
 Bắt sự kiện phím enter x
 Đưa các phần load model vào hàm bất đồng bộ x
-Trước khi vào giao diện chat, người dùng phải nhập tên, lưu tên người dùng vào localStorage
+Trước khi vào giao diện chat, người dùng phải nhập tên, lưu tên người dùng vào localStorage x
 Vừa vào giao diện chat có sẵn câu chào
 Lưu cuộc trò chuyện vào localStorage, khi người dùng vẫn còn lưu trong localStorage thì load lại các tin nhắn trước đó
 Xoá cuộc trò chuyện
