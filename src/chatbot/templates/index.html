@@ -3,17 +3,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOVE CHATBOT</title>
+    <title>Chatbot Messenger</title>
     <link rel="stylesheet" href="{% static 'css/home.css'%}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="{% static 'img/chatbot_1.ico' %}" type="image/gif" sizes="32x32">
    </head>
 <body>
   <nav>
     <div class="menu">
       <div class="logo">
-        <img src="{% static 'img/chatbot_1.ico'%}"/>
-        <a href="#">LOVE CHATBOT</a>
+        <a href="/">
+          <img src="{% static 'img/chatbot_1.ico'%}"/>
+          <p>LOVE CHATBOT</p>
+        </a>
       </div>
       <ul>
         <li><a href="#">HOME</a></li>
@@ -31,13 +33,20 @@
       <div id="myModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
-          <input placeholder="Enter your name..."/>
-          <a href="#"><button>Start</button></a>
+          <input id="userName" placeholder="Enter your name..."/>
+          <a href="./chatbot"><button id="start-chat">Start</button></a>
         </div>
       </div>
       <button>SUBSCRIBE</button>
     </div>
   </div>
   <script type="text/javascript" src="{% static 'js/openModal.js' %}"></script>
+  <script>
+    document.getElementById("start-chat").addEventListener("click", getUserName);
+    
+    function getUserName() {
+      localStorage.setItem('userName', document.getElementById("userName").value);
+    }
+    </script>
 </body>
 </html>

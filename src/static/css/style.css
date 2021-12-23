@@ -118,11 +118,15 @@ header > div {
 header .left {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+header .left a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 8px;
+    text-decoration: none;
 }
 
 header .left img {

@@ -5,6 +5,12 @@ gridMessage = document.getElementsByClassName("grid-message")[0];
 submitBtn = document.getElementById("submit-btn");
 content = document.getElementsByClassName("col-content")[0];
 
+const nameUser = localStorage.getItem('userName');
+// console.log(name);
+if (nameUser) {
+    document.getElementById("nameUser").text = userName;
+}
+
 function scrollToEnd(element) {
     // console.log(element.scrollTop, element.scrollHeight);
     element.scrollTop = element.scrollHeight;

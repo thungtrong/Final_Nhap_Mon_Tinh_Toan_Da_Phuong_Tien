@@ -26,9 +26,8 @@ nav .menu {
     padding: 0 20px;
 }
 
-.menu .logo {
-    display: flex;
-    align-items: center;
+.menu .logo p {
+    margin-left: 8px;
 }
 
 .menu .logo a {
@@ -36,7 +35,8 @@ nav .menu {
     color: #fff;
     font-size: 25px;
     font-weight: 600;
-    margin-left: 8px;
+    display: flex;
+    align-items: center;
 }
 
 .menu .logo img {
@@ -163,7 +163,7 @@ nav .menu {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%;
+    width: 40%;
 }
 
 .modal-content input {
