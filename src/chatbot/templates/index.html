@@ -1,25 +1,43 @@
-{% extends 'base.html' %}
-{% block body %}
-<main>
-    <div class="col">
-        <div class="col-content">
-            <section class="message">
-                <div class="grid-message">
-
-                </div>
-            </section>
-        </div>
-
-        <div class="col-foot">
-            <div class="compose">
-                <input id="message-input" placeholder="Type a message">
-                <div class="compose-dock" id='submit-btn' title="Gửi">
-                    <div class="dock">
-                        <i class="fas fa-paper-plane"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE CHATBOT</title>
+    <link rel="stylesheet" href="{% static 'css/home.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <img src="{% static 'img/chatbot_1.ico'%}"/>
+        <a href="#">LOVE CHATBOT</a>
+      </div>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
     </div>
-</main>
-{% endblock %}
+  </nav>
+  <div class="background-home"></div>
+  <div class="center">
+    <div class="title">LOVE CHATBOT</div>
+    <div class="sub_title">Hi, I am a chatbot.</div>
+    <div class="btns">
+      <button id="myBtn">CHAT</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <input placeholder="Enter your name..."/>
+          <a href="#"><button>Start</button></a>
+        </div>
+      </div>
+      <button>SUBSCRIBE</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="{% static 'js/openModal.js' %}"></script>
+</body>
+</html>

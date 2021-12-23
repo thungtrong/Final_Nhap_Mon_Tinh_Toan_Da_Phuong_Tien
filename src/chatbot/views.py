@@ -147,8 +147,11 @@ async def get_answer(request):
 
 
 # Create your views here.
-
-# Decorator chắn chắn rằng khi render views thì sẽ gửi csrftoken cho client
-@ensure_csrf_cookie
 def index(request):
     return render(request, 'index.html')
+# Decorator chắn chắn rằng khi render views thì sẽ gửi csrftoken cho client
+
+
+@ensure_csrf_cookie
+def chatbot(request):
+    return render(request, 'chatbot.html')
