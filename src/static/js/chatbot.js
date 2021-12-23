@@ -5,10 +5,26 @@ gridMessage = document.getElementsByClassName("grid-message")[0];
 submitBtn = document.getElementById("submit-btn");
 content = document.getElementsByClassName("col-content")[0];
 
+// Get userName in localStorage
 const nameUser = localStorage.getItem('userName');
-// console.log(name);
+
 if (nameUser) {
-    document.getElementById("nameUser").text = userName;
+    document.getElementById("nameUser").innerHTML = nameUser;
+
+    createWaitMessage();
+    setTimeout(function () {
+        removeWaitMessage();
+        let tmp = document.createElement("div");
+        let className = "received";
+        let message = "Xin chào, " + nameUser;
+        tmp.className = `col-message-${className}`;
+        tmp.innerHTML = `<div class="message-${className}">
+                    <p>${message}</p>
+                </div>`;
+        addMessage2Grid(tmp);
+    },1000);
+
+    
 }
 
 function scrollToEnd(element) {

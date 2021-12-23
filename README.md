@@ -32,9 +32,9 @@ Gửi tin nhắn -> nhận phản hồi
 
 ### Các Tag TO-DO trong file là những dự định tiếp theo
 
-Bắt sự kiện phím enter x
-Đưa các phần load model vào hàm bất đồng bộ x
-Trước khi vào giao diện chat, người dùng phải nhập tên, lưu tên người dùng vào localStorage x
-Vừa vào giao diện chat có sẵn câu chào
-Lưu cuộc trò chuyện vào localStorage, khi người dùng vẫn còn lưu trong localStorage thì load lại các tin nhắn trước đó
-Xoá cuộc trò chuyện
+Bắt sự kiện phím enter x <br />
+Đưa các phần load model vào hàm bất đồng bộ x <br />
+Trước khi vào giao diện chat, người dùng phải nhập tên, lưu tên người dùng vào localStorage x <br />
+Vừa vào giao diện chat có sẵn câu chào x <br />
+Lưu cuộc trò chuyện vào localStorage, khi người dùng vẫn còn lưu trong localStorage thì load lại các tin nhắn trước đó <br />
+Xoá cuộc trò chuyện <br />
