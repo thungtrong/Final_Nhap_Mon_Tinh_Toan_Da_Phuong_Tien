@@ -1,12 +1,21 @@
 ROOT_URL = "http://localhost:8000";
 API_URL = ROOT_URL + "/chatbot/api/get_answer";
-message = document.getElementById("message-input");
+messageInput = document.getElementById("message-input");
 gridMessage = document.getElementsByClassName("grid-message")[0];
 submitBtn = document.getElementById("submit-btn");
 content = document.getElementsByClassName("col-content")[0];
 
 // Get userName in localStorage
-const nameUser = localStorage.getItem('userName');
+const nameUser = localStorage.getItem("userName");
+// Định dạng: [[message, mcase], ...]
+var listMessage = JSON.parse(localStorage.getItem("listMessage"));
+listMessage = listMessage ? listMessage : [];
+
+if (listMessage) {
+    listMessage.forEach((element) => {
+        createMessage(element[0], element[1], false);
+    });
+}
 
 if (nameUser) {
     document.getElementById("nameUser").innerHTML = nameUser;
@@ -15,16 +24,15 @@ if (nameUser) {
     setTimeout(function () {
         removeWaitMessage();
         let tmp = document.createElement("div");
-        let className = "received";
+        // let className = "received";
         let message = "Xin chào, " + nameUser;
-        tmp.className = `col-message-${className}`;
-        tmp.innerHTML = `<div class="message-${className}">
-                    <p>${message}</p>
-                </div>`;
-        addMessage2Grid(tmp);
-    },1000);
-
-    
+        createMessage(message, CASE_RECEIVED);
+        // tmp.className = `col-message-${className}`;
+        // tmp.innerHTML = `<div class="message-${className}">
+        //             <p>${message}</p>
+        //         </div>`;
+        // addMessage2Grid(tmp);
+    }, 1000);
 }
 
 function scrollToEnd(element) {
@@ -42,7 +50,7 @@ function addMessage2Grid(element) {
 // mcase = 0: sent
 CASE_RECEIVED = 1;
 CASE_SENT = 0;
-function createMessage(message, mcase) {
+function createMessage(message, mcase, addList = true) {
     let tmp = document.createElement("div");
     let className = mcase ? "received" : "sent";
 
@@ -50,7 +58,7 @@ function createMessage(message, mcase) {
     tmp.innerHTML = `<div class="message-${className}">
                 <p>${message}</p>
             </div>`;
-
+    if (addList) listMessage.push([message, mcase]);
     addMessage2Grid(tmp);
     return tmp;
 }
@@ -80,6 +88,7 @@ function getLastMessageSent() {
     let lastMessSent = document.getElementsByClassName("message-sent");
     return lastMessSent[lastMessSent.length - 1];
 }
+
 // Xử lý csrf token
 function getCookie(name) {
     let cookieValue = null;
@@ -101,10 +110,10 @@ function getCookie(name) {
 // ---------------------------------------------------------------
 
 function sendMessage() {
-    let mess = message.value;
-    // Gửi tin nhắn, tạo Promise để hàm nhận sẽ xử lý kết quả
+    let mess = messageInput.value;
     let csrftoken = getCookie("csrftoken");
 
+    // Gửi tin nhắn, tạo Promise để hàm nhận sẽ xử lý kết quả
     let promise = fetch(API_URL, {
         method: "POST",
         headers: { "X-CSRFToken": csrftoken },
@@ -112,9 +121,13 @@ function sendMessage() {
             message: mess,
         }),
     });
+    // Thêm vào danh sách
 
     createMessage(mess, CASE_SENT).firstChild.style.opacity = "0.5";
-    message.value = "";
+    messageInput.value = "";
+
+    // Disable
+    messageInput.disabled = true;
     // Lam mo khung nhap tin nhan
     submitBtn.style.opacity = "0.5";
     submitBtn.style.cursor = "not-allowed";
@@ -133,6 +146,7 @@ function getMessage(data) {
             createMessage(data.message, CASE_RECEIVED);
 
             // Cho phep gui tin nhan tiep theo sau khi nhan tin nhan
+            messageInput.disabled = false;
             submitBtn.style.opacity = "1";
             submitBtn.style.cursor = "pointer";
         }, 1000);
@@ -146,7 +160,7 @@ function getMessage(data) {
 }
 
 function submitEvent(e) {
-    if (message.value) {
+    if (messageInput.value) {
         sendMessage()
             .then((res) => {
                 getLastMessageSent().style.opacity = 1;
@@ -159,6 +173,7 @@ function submitEvent(e) {
             .catch((err) => {
                 console.log("Loi");
                 removeWaitMessage();
+                listMessage.pop();
                 // Chuyen tin nhan cuoi sang class error
                 getLastMessageSent().className += " message-error";
             });
@@ -174,3 +189,16 @@ document.addEventListener("keyup", function (e) {
         submitEvent(e);
     }
 });
+
+window.addEventListener("beforeunload", function (e) {
+    e.preventDefault();
+    localStorage.setItem("listMessage", JSON.stringify(listMessage));
+    if (messageInput.value) {
+        e.returnValue = "";
+    }
+});
+
+function cleanChat() {
+    listMessage = [];
+    localStorage.removeItem("listMessage");
+}
