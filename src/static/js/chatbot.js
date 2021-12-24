@@ -23,15 +23,10 @@ if (nameUser) {
     createWaitMessage();
     setTimeout(function () {
         removeWaitMessage();
-        let tmp = document.createElement("div");
-        // let className = "received";
         let message = "Xin chào, " + nameUser;
+        if (nameUser === "incognito")
+            message = "Xin chào bạn";
         createMessage(message, CASE_RECEIVED);
-        // tmp.className = `col-message-${className}`;
-        // tmp.innerHTML = `<div class="message-${className}">
-        //             <p>${message}</p>
-        //         </div>`;
-        // addMessage2Grid(tmp);
     }, 1000);
 }
 
@@ -198,7 +193,12 @@ window.addEventListener("beforeunload", function (e) {
     }
 });
 
+
+document.getElementById("delete-icon").addEventListener("click", cleanChat);
+
 function cleanChat() {
     listMessage = [];
     localStorage.removeItem("listMessage");
+    localStorage.removeItem("userName");
+    window.location.href = "/";
 }

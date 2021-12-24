@@ -33,7 +33,7 @@
       <div id="myModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
-          <input id="userName" placeholder="Enter your name..."/>
+          <input id="userName" placeholder="Start with incognito or input your name..."/>
           <a href="./chatbot"><button id="start-chat">Start</button></a>
         </div>
       </div>
@@ -41,12 +41,5 @@
     </div>
   </div>
   <script type="text/javascript" src="{% static 'js/openModal.js' %}"></script>
-  <script>
-    document.getElementById("start-chat").addEventListener("click", getUserName);
-    
-    function getUserName() {
-      localStorage.setItem('userName', document.getElementById("userName").value);
-    }
-    </script>
 </body>
 </html>
