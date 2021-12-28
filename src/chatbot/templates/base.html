@@ -8,6 +8,7 @@
     <link rel="icon" href="{% static 'img/chatbot_1.ico' %}" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css'%}">
 </head>
 
 <body>
@@ -35,8 +36,29 @@
                         </label>
                     </div>
 
-                    <i class="fas fa-trash-alt" id="delete-icon"></i> 
-                </div>
+                    <div class="container">
+                        <div><i id="delete-icon" class="fas fa-trash-alt" ></i></div>
+                        <!-- The Modal-->
+                        <div id="modalDel" class="modal-del"> 
+                            <!-- Content of the modal -->
+                            <div class="modal-content">
+                                <div class="modal-header">                                    
+                                    <i class="fas fa-trash-alt" ></i>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="modal-body"></div>
+                                    <h2>Do you want to delete the entire chat?</h2>
+                                    <br></br>
+                                    <br></br>
+                                <div class="modal-footer">
+                                    <button id="yesBtn">Yes</button>
+                                    <button id="noBtn">No</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+
+                 </div>
             </div>
         </header>
 

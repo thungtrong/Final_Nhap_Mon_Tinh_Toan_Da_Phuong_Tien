@@ -157,6 +157,18 @@ nav .menu {
     /* background-color: rgba(0,0,0,0.4); */
 }
 
+
+.modal-del {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(0,0,0,0.4); */
+}
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
@@ -190,6 +202,20 @@ nav .menu {
 
 .modal-content button:hover {
     opacity: 0.8;
+}
+
+
+.modal-footer {
+    text-align: right;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(171,219,227);
+    color: white;
 }
 
 /* The Close Button */

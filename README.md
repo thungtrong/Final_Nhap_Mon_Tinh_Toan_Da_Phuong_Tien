@@ -38,4 +38,4 @@ Trước khi vào giao diện chat, người dùng phải nhập tên, lưu tên
 Vừa vào giao diện chat có sẵn câu chào [x] <br />
 Lưu cuộc trò chuyện vào localStorage, khi người dùng vẫn còn lưu trong localStorage thì load lại các tin nhắn trước đó [x] <br />
 Xoá cuộc trò chuyện [x] <br />
-Confirm delete khi xóa cuộc trò chuyện <br/>
+Confirm delete khi xóa cuộc trò chuyện [x]<br/>
