@@ -193,24 +193,21 @@ window.addEventListener("beforeunload", function (e) {
     }
 });
 
-// 
+// Lấy modalDel
 var modal = document.getElementById('modalDel');
-
 
 // Lấy phần button mở modalDel
 var btn = document.getElementById("delete-icon"); 
 
-// Lấy phần span đóng modalDel 
-var span = document.getElementsByClassName("close")[0]; 
+// Lấy phần đóng modalDel 
+var btnClose = document.getElementsByClassName("close")[0]; 
 
 // Khi button được click thì mở modalDel 
-
 btn.onclick = function() {
     modal.style.display = "block"; 
     document.getElementById("yesBtn").addEventListener("click", cleanChat);
     document.getElementById("noBtn").addEventListener("click", cancel);
 }
-
 
 function cleanChat() {
     listMessage = [];
@@ -219,11 +216,11 @@ function cleanChat() {
     window.location.href = "/";
 }
 function cancel() {
-    window.location.href = "/chatbot/"
+    modal.style.display = "none";
 }
 
-// Khi span được click thì đóng modalDel
-span.onclick = function() {
+// Khi btnClose được click thì đóng modalDel
+btnClose.onclick = function() {
     modal.style.display = "none"; 
 }
 

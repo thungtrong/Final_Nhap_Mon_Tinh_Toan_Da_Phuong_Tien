@@ -157,7 +157,6 @@ nav .menu {
     /* background-color: rgba(0,0,0,0.4); */
 }
 
-
 .modal-del {
     display: none;
     position: fixed;
@@ -193,7 +192,7 @@ nav .menu {
     border: none;
     font-size: 16px;
     font-weight: 600;
-    margin-top: 10px;
+    margin: 10px 10px 10px 0px;
     cursor: pointer;
     background: #0181ff;
     color: #fff;
@@ -204,9 +203,30 @@ nav .menu {
     opacity: 0.8;
 }
 
+/* ModalDEl */
+.modalDel-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid rgb(1, 31, 41);
+    width: 40%;
+}
 
-.modal-footer {
-    text-align: right;
+.modalDel-content button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    background: #0181ff;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.modalDel-content button:hover {
+    opacity: 0.8;
 }
 
 .modal-header {
@@ -216,6 +236,10 @@ nav .menu {
     padding: 10px;
     background: rgb(171,219,227);
     color: white;
+}
+
+.modal-footer {
+    text-align: right;
 }
 
 /* The Close Button */
