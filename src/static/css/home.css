@@ -100,14 +100,17 @@ nav .menu {
 
 .center .title {
     color: #fff;
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 600;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 80%);
 }
 
 .center .sub_title {
     color: #fff;
-    font-size: 52px;
+    font-size: 38px;
     font-weight: 600;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 80%);
 }
 
 .center .btns {
@@ -129,6 +132,10 @@ nav .menu {
     transition: all 0.3s ease;
 }
 
+#myBtn {
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 80%);
+}
+
 .center .btns > button:first-child {
     color: #fff;
     background: none;
@@ -137,6 +144,7 @@ nav .menu {
 .btns > button:first-child:hover {
     background: white;
     color: black;
+    text-shadow: 0px 0px 0px !important;
 }
 
 .center .btns > button:last-child {
@@ -157,17 +165,6 @@ nav .menu {
     /* background-color: rgba(0,0,0,0.4); */
 }
 
-.modal-del {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 150px; 
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    /* background-color: rgba(0,0,0,0.4); */
-}
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
@@ -203,51 +200,13 @@ nav .menu {
     opacity: 0.8;
 }
 
-/* ModalDEl */
-.modalDel-content {
-    background-color: #fefefe;
-    margin: auto;
-    border: 1px solid rgb(1, 31, 41);
-    width: 40%;
-}
-
-.modalDel-content button {
-    height: 40px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 10px 10px 10px 0px;
-    cursor: pointer;
-    background: #0181ff;
-    color: #fff;
-    transition: 0.2s ease-in-out;
-}
-
-.modalDel-content button:hover {
-    opacity: 0.8;
-}
-
-.modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background: rgb(171,219,227);
-    color: white;
-}
-
-.modal-footer {
-    text-align: right;
-}
-
 /* The Close Button */
 .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    transition: 0.1s ease-in-out;
 }
 
 .close:hover,

@@ -206,7 +206,7 @@ var btnClose = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
     modal.style.display = "block"; 
     document.getElementById("yesBtn").addEventListener("click", cleanChat);
-    document.getElementById("noBtn").addEventListener("click", cancel);
+    document.getElementById("noBtn").addEventListener("click", cancelModal);
 }
 
 function cleanChat() {
@@ -215,7 +215,8 @@ function cleanChat() {
     localStorage.removeItem("userName");
     window.location.href = "/";
 }
-function cancel() {
+
+function cancelModal() {
     modal.style.display = "none";
 }
 
@@ -225,8 +226,8 @@ btnClose.onclick = function() {
 }
 
 // Khi click ngoài modalDel thì đóng modal 
-window.onclick = function(event) { 
-    if (event.target == modal) {
+window.onclick = function(e) { 
+    if (e.target == modal) {
         modal.style.display = "none"; 
     }
 }

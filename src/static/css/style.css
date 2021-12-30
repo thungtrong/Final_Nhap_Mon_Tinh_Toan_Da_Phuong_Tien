@@ -5,6 +5,7 @@
     --white-color: #fff;
     --border: rgba(0, 0, 0, 0.1);
     --box-shadow: rgba(0, 0, 0, 0.06);
+    --box-shadow-delModal: rgba(0, 0, 0, 0.2);
     --background-color-mess-received: #e6e6e6;
     --background-color-input: #f0f2f5;
     --background-color-hover: #ccc;
@@ -18,6 +19,7 @@
     --black-color: #fff;
     --white-color: #000;
     --border: rgba(160, 160, 175, 0.2);
+    --box-shadow-delModal: rgba(160, 160, 175, 0.2);
     --box-shadow: rgba(255, 255, 255, 0.1);
     --background-color-mess-received: #3e4042;
     --background-color-input: #3a3b3c;
@@ -511,4 +513,94 @@ input:checked + .slider::before {
 
 #delete-icon:hover {
     opacity: .9;
+}
+
+/* ModalDEl */
+.modalDel-content {
+    background-color: var(--body-color);
+    margin: auto;
+    box-shadow: 0 0 50px var(--box-shadow-delModal);
+    width: 40%;
+    border-radius: 8px;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-body > p {
+    font-size: 20px;
+    color: var(--black-color);
+}
+
+.modal-del {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.4); */
+}
+
+.modalDel-content button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    background: var(--black-color);
+    color: var(--white-color);
+    transition: 0.2s ease-in-out;
+}
+
+.modalDel-content #yesBtn {
+    background-color: red;
+    color: #fff;
+}
+
+.modalDel-content button:hover {
+    opacity: 0.8;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: var(--primary-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.modal-header > p {
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.modal-footer {
+    text-align: right;
+}
+
+/* The Close Button */
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

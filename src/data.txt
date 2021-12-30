@@ -1,0 +1,451 @@
+bạn đã có người yêu chưa ? __answer__ mình có người yêu rồi
+bạn và người yêu đã quen được bao lâu rồi ? __answer__ tớ và người yêu đã quen nhau được 1 năm rồi
+hai người có đang sống với nhau không ? __answer__ không, tớ và người yêu đang sống với gia đình
+bạn đã gặp người yêu như thế nào ? __answer__ mình nghĩ nó thật ngại khi nói ra nên mình sẽ không trả lời câu hỏi này
+bao lâu thì cậu hẹn hò với người yêu ? __answer__ chúng tớ hẹn hò 2 đến 3 lần 1 tuần
+Lần cuối bạn có người yêu là khi nào? __answer__ vào tháng 10 năm 2020
+Bạn có crush ai không không? __answer__ có, mình có crush một người.
+bạn có thể nói crush bạn là ai không? __answer__ đó là một bí mật
+Bạn có muốn đi đâu chơi với người yêu không? __answer__ Nếu có thì mình sẽ chọn Đà Lạt
+bạn cho mình hỏi bạn có người yêu chưa? __answer__ tớ chưa có người yêu
+bạn cho mình hỏi hiện tại bạn có crush với ai chưa __answer__ tớ chưa có crush với ai hết
+Bạn có người yêu chưa? __answer__ Chưa.
+Mình làm quen nhé? __answer__ Không.
+Hôm nay em mặc 1 chiếc áo rất đẹp. __answer__ Cảm ơn anh!
+Bạn có người yêu chưa? __answer__ Chưa.
+Mình làm quen nhé? __answer__ Không.
+Hôm nay em mặc 1 chiếc áo rất đẹp. __answer__ Cảm ơn anh!
+có người yêu chưa? __answer__ rồi?
+tên gì? __answer__ tên Oanh
+người yêu mấy tuổi? __answer__ 20 tuổi
+người yêu học khoa gì? __answer__ khoa TCNH
+Bạn ấy trông như thế nào? __answer__ xinh gái, dễ thương
+Hôm nay em dậy mấy giờ? __answer__ Dạ, 6 giờ sáng ạ
+Em đi ăn sáng chưa? __answer__ Dạ, chưa anh
+Anh qua chở em đi ăn sáng nha? __answer__ Dạ, ok anh
+Anh rảnh không, qua chở em đi học với? __answer__ Ok em, chờ anh 15 phút nữa anh tới.
+Hôm nay đi học có gì vui không em? __answer__ Dạ, vui lắm anh.
+tớ có người yêu rồi, sao á __answer__ thì tớ chỉ hỏi chơi chơi vậy thôi à
+còn cậu sao __answer__ chưa á nhưng mà tớ đang crush một người
+ai vậy cậu __answer__ con nhỏ ở chỗ tớ đang đi làm thêm
+vậy à __answer__ ừ cậu
+Bạn có người yêu chưa? __answer__ Mình chưa có.
+Mình làm quen nhé? __answer__ Cũng được.
+Hôm nay em mặc 1 chiếc áo rất đẹp. __answer__ Cảm ơn anh nha!
+Bạn có người yêu chưa ? __answer__ Mình chưa hề có người yêu
+sao bạn bi quan thế rồi sẽ có thôi ? __answer__ ừa mình tin là thế
+Mẫu người yêu bạn mong muốn là gì ? __answer__ Đẹp !!!
+Thế còn ngoại hình thì sao ? __answer__ Đẹp !!!
+Thế còn học thức ? __answer__ Giỏi !!!
+bạn đã có người yêu chưa? __answer__ mình đã có người yêu rồi nha
+bạn gái bạn tên gì vậy? __answer__ đó là bí mật nên mình sẽ không nói đâu
+bạn thích người yêu như thế nào? __answer__ mình thích người yêu của mình bây giờ
+mẫu người yêu lý tưởng của bạn là gì? __answer__ là mẫu người yêu của mình bây giờ
+Em đang làm gì đó ? __answer__ Em đang ngồi nhắn tin với anh hoy à
+Hình như tao cảm thấy thích nhỏ đó rồi mày à ? __answer__ Cuối cùng bạn tao cũng mắc vào lưới tình rồi
+Thứ 7, anh có bất ngờ muốn dành cho em nè ? __answer__ Là gì vậy anh, em tò mò quá đi
+Tết này em có muốn về quê anh chơi không ? __answer__ Để em sắp xếp rồi cho anh hay ha
+Tụi tao chia tay rồi mày ơi ? __answer__ Thôi đừng buồn ăn gì không tao mời
+Buồn quá mày, tao với Uyên lại cãi nhau __answer__ Sao nữa vậy?
+Tại hôm qua tao đi nhậu mà hơi thân mật với mấy chị trong công ty __answer__ Ủa vậy bị giận là xứng đáng quá còn gì!!
+Ơ, mày phải bạn tao không đấy? Sao không bênh tao? __answer__ Bên mày thế nào được, ai mượn có bồ rồi mà còn này kia chi
+YEP nên mọi người thoải mái xíu thôi mà __answer__ Thôi thôi, không cần biết YEP hay gì, lo mà đi làm hòa với con người ta đi
+Thế tao phải làm gì giờ? __answer__ Thì ai biết mày, xem nói ngọt dỗ con bé thử.
+không biết cậu đã có người yêu chưa? __answer__ mình chưa có ai thương hết ấy.
+không biết cậu có bạn gái rồi hay chưa? __answer__ mình hiện đã có bạn gái rồi nha bạn.
+Bạn có thể cho mình hỏi bạn gái bạn tên gì được không? __answer__ đó là một bí mật, mình sẽ không bật mí đâu.
+bạn thấy người yêu của bạn như thế nào? __answer__ người yêu mình là một người con gái cực kì dễ thương và chu đáo.
+bạn có còn thương người yêu cũ không? __answer__ đôi lúc mình vẫn nhớ tới người yêu cũ, nhưng thương thì chắc không còn.
+Bạn đã có người yêu chưa? __answer__ Mình có rồi nha
+Bạn và người yêu quen nhau lâu chưa? __answer__ mình quen cũng được 1 năm rồi bạn
+Hiện tại bạn có crush ai chưa? __answer__ mình đang crush một bạn
+Mình có quen người đó không? __answer__ Bạn có quen nha
+Có thể cho mình gợi ý không? __answer__ không được nha, bí mật
+cho mình hỏi cậu có người yêu chưa? __answer__ tớ chưa có, tớ đang còn độc thân
+Vậy cậu đang có crush ai không? __answer__ à, hihi. Mình đang crush bạn kia
+Crush cậu bao nhiêu tuổi, bằng tuổi mình luôn à __answer__ crush của tớ 21 tuổi luôn, bằng tuổi bọn mình
+Thế bạn ấy có học chung trường với mình không? __answer__ bạn ấy học cùng trường luôn, khoa CNTT á
+Chia sẻ một chút về crush của cậu  được không? __answer__ crush của tớ nhỏ nhắn, xinh xắn và hiền lắm
+Mình cảm thấy bạn đang crush ai à? __answer__ Đúng vậy, mình đang crush một bạn
+Hai người gặp nhau ở đâu thế? __answer__ Tụi mình đang học chung lớp trong học kì này
+Bạn đã bắt chuyện với bạn ấy chưa? __answer__ Mình đã bắt chuyện rồi
+Cảm giác khi trò chuyện thế nào? __answer__ Bạn ấy rất vui tính
+Bạn ấy còn độc thân không? __answer__ Bạn ấy vẫn còn đang độc thân
+Buồn quá mày, tao với Uyên lại cãi nhau __answer__ Sao nữa vậy?
+Tại hôm qua tao đi nhậu mà hơi thân mật với mấy chị trong công ty __answer__ Ủa vậy bị giận là xứng đáng quá còn gì!!
+Ơ, mày phải bạn tao không đấy? Sao không bênh tao? __answer__ Bên mày thế nào được, ai mượn có bồ rồi mà còn này kia chi
+YEP nên mọi người thoải mái xíu thôi mà __answer__ Thôi thôi, không cần biết YEP hay gì, lo mà đi làm hòa với con người ta đi
+Thế tao phải làm gì giờ? __answer__ Thì ai biết mày, xem nói ngọt dỗ con bé thử.
+alo bạn ơi ? __answer__ mình nghe nè bạn ơi
+bạn có thích ai không? __answer__ mình không có
+tại sao vậy bạn ? __answer__ mình bận tập trung học tập
+bạn học để làm gì vậy bạn ? __answer__ mình học để giúp đất nước sánh vai với cường quốc năm châu
+còn để làm gì nữa không bạn ? __answer__ mình muốn giúp dân tộc , người dân tốt hơn
+còn gì nữa không bạn ? __answer__ mình còn muốn giúp nhân loại tiến lên có cuộc sống tốt hơn
+bạn học nhiều không ? __answer__ nhiều lắm bạn ơi
+Bạn có người yêu chưa? __answer__ Mình chưa có
+Bạn thích người yêu như thế nào? __answer__ Mình thích người cũng thích mình
+Bạn đã yêu bao nhiêu người rồi? __answer__ Mình không muốn trả lời
+Bạn yêu nhất là ai trong số người yêu cũ? __answer__ Mình yêu nhất là bạn Trinh
+Bạn có thích Ngọc Trinh không? __answer__ Mình rất thích
+Bạn nghĩ sao về tình yêu đồng giới? __answer__ Mình rất cởi mở
+Bạn có thuộc giới tính thứ 3 không? __answer__ Mình không
+Bạn có sẵn sàng yêu đồng giới không? __answer__ Mình không
+Bạn có định sau này sẽ kết hôn không? __answer__ Mình có
+Bạn sẽ kêt hôn vào năm bao nhiêu tuổi? __answer__ Mình chưa xác định
+bạn nghĩ sao về mối quan hệ one night stay? __answer__ Gặp nhau là duyên phận, xa nhau cũng là duyên phận
+bạn đang độc thân hay đã có người yêu? __answer__ Mình đang độc thân
+người yêu của bạn là người như thế nào? __answer__ Mình đang độc thân
+quan điểm khi yêu của bạn là gì? __answer__ Đừng hãm là được
+khi yêu, bạn thường làm gì để người yêu vui? __answer__ Chưa có người yêu nên chưa biết
+bạn thường làm gì để dỗ người yêu? __answer__ Chưa có người yêu nên chưa biết
+bạn với người yêu quen nhau như thế nào? __answer__ Chưa có người yêu nên chưa biết
+giới tính của người yêu bạn là gì ? __answer__ Chưa có người yêu nên chưa biết
+bạn nghĩ sao về mối quan hệ one night stay? __answer__ Gặp nhau là duyên phận
+bạn đang độc thân hay đã có người yêu? __answer__ Mình đang độc thân
+người yêu của bạn là người như thế nào? __answer__ Mình đang độc thân
+quan điểm khi yêu của bạn là gì? __answer__ Đừng hãm là được
+khi yêu, bạn thường làm gì để người yêu vui? __answer__ Chưa có người yêu nên chưa biết
+bạn thường làm gì để dỗ người yêu? __answer__ Chưa có người yêu nên chưa biết
+bạn với người yêu quen nhau như thế nào? __answer__ Chưa có người yêu nên chưa biết
+giới tính của người yêu bạn là gì ? __answer__ Chưa có người yêu nên chưa biết
+bạn có người yêu chưa? __answer__ tất nhiên là chưa
+chừng nào bạn có người yêu? __answer__ một lát nữa
+Bạn có người yêu chưa? __answer__ tất nhiên là chưa
+Người yêu của bạn đẹp không? __answer__ đẹp dữ lắm nha
+Người yêu của bạn cao không? __answer__ Cao lắm luôn á
+2 bạn có thường xuyên đi chơi không? __answer__ tụi mình yêu xa huhu
+2 bạn thường đi chơi ở những đâu? __answer__ thôi mình ngại lắm, không nói đâu
+Bạn có người yêu chưa? __answer__ mình có rùi
+người yêu bạn và bạn có hạnh phúc không? __answer__ mình rất là hạnh phúc nhen
+quan điểm của bạn về yêu đương là gì thế? __answer__ là 2 người luôn dành cho nhau sự tôn trọng, dùm bọc và sẵn sàng hi sinh vì nhau
+Hiện tại bạn có người yêu chưa? __answer__ À hiện mình có vợ và 2 con rồi ^^
+Vợ bạn là người như thế nào? __answer__ Chu đáo với gia đình
+Quan điểm yêu đương của bạn như thế nào? __answer__ Cả hai thấu hiểu nhau
+bạn có mối quan hệ yêu đương nào không? __answer__ Mình còn ế đây nè.
+bạn muốn mối quan hệ thế nào lúc hiện tại? __answer__ Khi nào làm chủ tài chính.
+bạn muốn có người yêu như thế nào? __answer__ Hiểu chuyện là đủ.
+bạn thích sự lãng mạn hay thực tế trong tình yêu? __answer__ cả 2 luôn được không.
+bạn có người yêu chưa? __answer__ mình chưa có người yêu và mình đang sợ ế đó
+mẫu người yêu của bạn là người như thế nào? __answer__ chỉ cần là con gái là được
+Người yêu bạn tên gì? __answer__ mình chưa có người yêu
+Hai bạn yêu nhau bao lâu rồi? __answer__ mình chưa có người yêu
+Bạn thích ai? __answer__ mình chưa có người yêu
+bạn có người yêu chưa? __answer__ Mình chưa có người yêu
+người yêu của bạn là người như thế nào? __answer__ Người yêu mình là người rất rộng lượng
+bạn đã có người yêu chưa? __answer__ Mình đã có rồi
+bạn và người yêu của bạn quen nhau được bao lâu rồi? __answer__ Mình và người yêu mình quen nhau được 4 năm rồi
+bạn thấy người yêu của mình là người như thế nào? __answer__ người yêu mình là một người ấm áp, dễ thương
+bạn nghĩ như thế nào về người yêu của mình? __answer__ Dễ thương, biết cảm thông
+bạn có người yêu chưa? __answer__ mình chưa có người yêu.
+bạn thích điểm nhất về người yêu của bạn? __answer__ mình chưa có người yêu.
+Bạn có người yêu chưa? __answer__ Người yêu thì mnhf chưa có và mình chưa cần.
+Gu người yêu bạn như thế nào? __answer__ Cao ráo, đẹp trai.
+Quan điểm về tình yêu của bạn như thế nào? __answer__ Tình yêu là nguồn cảm hứng làm thơ của Xuân Diệu và là nguồn sống của mình.
+Bạn sẽ phản ứng như thế nào nếu phát hiện người yêu ngoại tình? __answer__ Mình sẽ buồn, và đi bộ đội.
+Bạn người có người yêu chưa? __answer__ Mình có người yêu rồi? Người yêu mình tên Duy body 7 múi hấp dẫn lắm!
+bạn có người yêu chưa? __answer__ mình chưa có bạn ơi.
+tình trạng hôn nhân của bạn là gì? __answer__ độc thân?
+người yêu bạn là người như thế nào? __answer__ đã bảo là đang độc thân.
+Ông đang single hay date hay trong mối quan hệ mập mờ? __answer__ 1 night stand.
+Gu người yêu ông là gì? __answer__ Là ông á.
+Ông thích trai or trai? __answer__ Troai
+Bạn có người yêu chưa? __answer__ mình có người yêu rồi
+Người yêu của bạn là người như thế nào? __answer__ người yêu của mình rất là perfect luôn, bạn đó lớn hơn mình 7 tuổi nên rất là cưng mình luôn, mình muốn cái gì cũng cho hết luôn á
+Theo ý kiên cá nhân của bạn, một người xứng đáng để yêu là để yêu là như thế nào? __answer__ là giống như người yêu của mình hiện tại
+Người bạn yêu có làm bạn vui hay không? __answer__ có chứ, bạn đó luôn luôn làm cho mình vui. mình quen biết bạn đó đến nay cũng 6-7 năm rồi đó nhưng bạn đó chưa bao giờ quát hay nói nặng với mình câu nào
+cho mình cắm sừng bạn được không ? __answer__ không thể được nha bạn iu
+Cậu có người yêu chưa ? __answer__ Tớ có rồi
+Người yêu cậu tên gì ? __answer__ Bạn gái tới tên Linh nha.
+Nghe nói các cậu cưới nhau rồi phải không? __answer__ Đúng rồi bọn tớ đã có 2 con.
+Dạo này cậu hay đi chơi với em tớ phải không? __answer__ Đúng rồi bọn tớ đang quen nhau  đấy.
+Cậu có thể cho tớ mượn bạn gái cậu mấy hôm không? __answer__ Ok mình là anh em tốt mà.
+bạn có người yêu chưa? __answer__ có rồi nhé
+bạn thích người như thế nào? __answer__ hài hước là được
+bạn tính bao nhiêu thì cưới? __answer__ 30 nhé
+bạn có tính ở giá không? __answer__ hổng chịu đâu
+cho mình hỏi bạn sắp kết hôn chưa? __answer__ sắp rồi nhé, chuẩn bị tiền mừng cưới đi
+Bạn ăn riêu cua, riêu cá rồi bạn có muốn ăn real love không? __answer__ Tất nhiên là hông rồi
+Bạn có người yêu chưa? __answer__ Hiện tại không có.
+Bạn trãi qua bao nhiêu mối tình? __answer__ Mình trãi qua 23 mối tình.
+Bạn cảm thấy thế nào khi yêu? __answer__ Mình cảm thấy gò bó.
+Mẫu người bạn thích? __answer__ Chỉ cần là khác phái là
+Mối tình của bạn lâu nhất bao lâu? __answer__ Mối tình của mình lâu nhất là 1 năm mẫu giáo.
+Bạn có thể có người yêu bạn đi chơi với mình không? __answer__ Tất nhiên là được rồi.
+Tại sao chia tay người yêu? __answer__ Vì nãy mình cho thằng bạn mượn người yêu.
+Cho mình hỏi bạn có người yêu chưa ? __answer__ Minh chưa có người yêu
+Cho mình hỏi người yêu bạn có đang đi học không ? __answer__ Mình có đâu mà hỏi
+Cho mình hỏi người yêu bạn đi làm chưa ? __answer__ Bạn hỏi hơi nhiều rồi đấy
+Cho mình hỏi người yêu bạn trông như thế nào ? __answer__ Bạn nhờn với mình à.
+Cho mình hỏi quan điểm về tình yêu của bạn ? __answer__ Quan điểm là có thể yêu là được
+Người yêu mày tên gì ? __answer__ Người yêu người ta mà hỏi
+Người yêu mày bao nhiêu tuổi ? __answer__ Nhỏ hơn tao 2 tuổi
+Mày thích người như thế nào ? __answer__ Tao thích người như người yêu tao
+Bồ mày với mày quen nhau bao lâu rồi ? __answer__ Cũng lâu rồi chắc 3 năm
+Mày gặp bồ mày ở đâu ? __answer__ Ở trường hay sao đó không nhớ nữa
+Cho xem hình bồ mày với ? __answer__ Mơ đi
+bạn có người yêu chưa? __answer__ chưa có người yêu.
+bạn thích người như thế nào? __answer__ mình thích kiểu người nhẹ nhàng ,tâm lý.
+bạn tính bao nhiêu thì cưới? __answer__ 30 chưa phải là tết.
+bạn có tính ở giá không? __answer__ không nếu hơn 40 mà chưa cuối thì tu luôn.
+cho mình hỏi bạn sắp kết hôn chưa? __answer__ chưa có bạn gái nữa là.
+Người yêu mày tên gì ? __answer__ Người yêu người ta mà hỏi
+Người yêu mày bao nhiêu tuổi ? __answer__ Nhỏ hơn tao 2 tuổi
+Mày thích người như thế nào ? __answer__ Tao thích người như người yêu tao
+Bồ mày với mày quen nhau bao lâu rồi ? __answer__ Cũng lâu rồi chắc 3 năm
+Mày gặp bồ mày ở đâu ? __answer__ Ở trường hay sao đó không nhớ nữa
+Cho xem hình bồ mày với ? __answer__ Mơ đi
+bạn đã quen bao nhiêu người rồi? __answer__ 100
+bạn đang yêu đúng không? __answer__ Đúng như quậy
+người yêu bạn tên gì? __answer__ Lý Anh
+có người yêu chưa? __answer__ Chưa
+Gu bạn gái là gì? __answer__ Hiền, biết suy nghĩ cho gia đình.
+Bạn có người yêu chưa? __answer__ Chưa
+Gu bạn gái của bạn là gì? __answer__ Hiền, biết suy nghĩ cho gia đình.
+bạn Có người yêu chưa ? __answer__ Có rồi
+Người yêu của bạn như thế nào ( cao , lùn , ốm , mập )? __answer__ ốm
+bạn Có thoải mái trong chuyện tình yêu hay không? __answer__ Thỏa mái về việc gì
+bạn Chọn lý trí hay con tim khi yêu ? __answer__ Chọn người đẹp
+Bạn có người yêu chưa ? __answer__ Mình có người yêu rồi
+Người yêu bạn học trường nào ? __answer__ Người yêu mình học ở trường đại học Nguyễn Tất Thành
+Quan điểm của bạn về yêu đương thế nào ? __answer__ Mình thích người yêu chung thủy và không cầu kì
+Bạn quen người yêu bạn bao lâu rồi ? __answer__ Mình quen khá lâu rồi
+Người yêu bạn tên gì ? __answer__ Bạn hỏi tên người yêu mình làm gì :))))
+bạn có bồ chưa? __answer__ rồi
+bạn quen người yêu bạn như thế nào ? __answer__ Tỏ tình rồi quen
+bạn đã quen bao nhiêu người rồi? __answer__ 10 người
+bạn đang yêu đúng không? __answer__ đúng
+người yêu bạn tên gì? __answer__ Ngọc Hạnh
+người yêu bạn là trai hay gái? __answer__ Gái
+Bạn có người yêu chưa? __answer__ Mình có người yêu rồi
+Bạn đang ế à? __answer__ Mình có người yêu rồi mà
+Bạn thích mẫu người như thế nào? __answer__ Đẹp gái
+Cậu có người yêu chưa? __answer__ Tớ có người yêu rồi
+Người yêu cậu thế nào? __answer__ Người yêu tớ rất xinh và tâm lí
+Quan điểm về tình yêu của cậu? __answer__ Quan điểm của tớ trong tình yêu là sự chân thành
+Người yêu cậu ở đâu? __answer__ Người yêu tớ ở quận 7
+Quê người yêu cậu ở đâu? __answer__ Quê người yêu mình ở Đồng Tháp
+bạn Có người yêu chưa ? __answer__ Có rồi
+Người yêu của bạn như thế nào ( cao , lùn , ốm , mập )? __answer__ ốm
+bạn Có thoải mái trong chuyện tình yêu hay không? __answer__ Thỏa mái về việc gì
+bạn Chọn lý trí hay con tim khi yêu ? __answer__ Chọn người đẹp
+làm cách nào để hâm nóng tình cảm với người yêu? __answer__ cho vào nồi nước sôi
+cậu nói cho mình bí quyết để có người yêu như cậu đi? __answer__ ví bạn dày như tui là được
+bạn nghĩ sao về tiền bạc trong tình yêu? __answer__ rất quan trọng
+chúng ta nên cần những gì để có người yêu? __answer__ phải có tiền
+hình tượng mà con gái mong muốn là gì? __answer__ phải to, chắc, bền, già gân
+Bạn có người yêu chưa? __answer__ Mình có người yêu rồi
+Bạn có thể mô tả sơ qua về người yêu của bạn được không? __answer__ Cao nhưng không to, đen nhưng không hôi
+Bạn có thể cho mình biết quan điểm của bạn về tình yêu được không? __answer__ Đối với mình về tình yêu là không quá ràng buộc nhưng phải rõ ràng
+Anh có người thương chưa? __answer__ Anh chưa.
+Vợ cậu về ở chung có quản lý tài chính cậu không? __answer__ Khả năng cao là có, và khả năng bị kiểm soát luôn quỹ đen là rất cao.
+Gu người yêu của bạn thế nào? __answer__ Gu người yêu của mình chỉ cần dễ thương là được.
+Bao nhiêu tuổi thì bạn tính đến chuyện hôn nhân? __answer__ Mình dự tính khoảng 27 tuổi mình sẽ tính tới chuyện hôn nhân.
+Anh chọn em hay là game? __answer__ Anh chọn cả 2, lúc em cần anh sẽ có mặt, lúc em buồn anh sẽ rủ em chơi game.
+Mẫu người mà bạn thích là gì? __answer__ Người đó tốt, xinh, giỏi là được
+Quan điểm về tình yêu của bạn là gì? __answer__ Khi yêu chúng ta không nên cắm sừng nhau là được
+Bạn quan trọng về ngoại hình hay tính cách? __answer__ Theo mình là cả hai
+Bạn yêu vì tình hay tiền? __answer__ Theo mình là cả hai luôn
+Khi bạn và người yêu cãi nhau, ai là người chủ động làm huề? __answer__ Tất nhiên là mình
+Bạn có đang yêu? __answer__ Mình chỉ yêu bản thân
+Bạn có người yêu chưa? __answer__ HUHUHUHUHU
+Bạn có người yêu chưa? __answer__ Tôi có người yêu rồi.
+Mẫu người yêu bạn như thế nào? __answer__ Không cần xinh đẹp tôi chỉ cần thật lòng là được.
+Quan điểm về tình yêu của bạn như thế nào? __answer__ Tình yêu bền vững khi một trong hai biết cách nhẫn nhịn.
+Khi người yêu dỗi thì bạn sẽ làm gì? __answer__ Tôi sẽ đi mua trà sữa cho cô ấy.
+Bạn có muốn có người yêu không? __answer__ có
+Bạn đã có người yêu chưa ? __answer__ Đoán xem
+Người yêu của bạn trông như thế nào ? __answer__ Đoán xem
+Quan điểm trong tình yêu của bạn như nào ? __answer__ Có không giữ mất đừng tìm. Điều gì đáng trân trọng thì không nên từ bỏ.
+Bạn với người yêu đã bao nhiêu cãi nhau chưa ? __answer__ Đã từng
+Ba mẹ bạn có biết bạn có người yêu không ? __answer__ Có là bị cạo đầu đó
+Bạn có người yêu chưa ? __answer__ rồi
+Ngoại hình người yêu của bạn như thế nào? __answer__ cao và ốm
+Quan điểm của bạn về tình yêu ? __answer__ cái nào đúng là đúng , sai là sai
+Bạn có người yêu chưa ? __answer__ rồi
+Ngoại hình người yêu của bạn như thế nào? __answer__ cao và ốm
+Quan điểm của bạn về tình yêu ? __answer__ cái nào đúng là đúng , sai là sai
+Bạn có người yêu chưa ? __answer__ Có rồi ông
+Chia tay chưa bạn ? __answer__ Lâu rồi ông
+Bạn gái bạn xinh không ? __answer__ Chia tay rồi
+Thế bạn có đang thích ai không ? __answer__ Có chứ
+Người bạn thích chắc xinh lắm nhỉ ? __answer__ Rõ ràng
+Bạn có bồ chưa? __answer__ Mình chưa
+Có bồ vui không? __answer__ Không vui đâu
+Bạn có muốn có bồ không? __answer__ mình không muốn
+Bạn muốn yêu người con gái như thế nào? __answer__ Người con gái xinh đẹp giỏi giang
+bạn có người yêu chưa? __answer__ có rất nhiều
+bạn nghĩ sao về một quan hệ lâu dài? __answer__ mình rất muốn
+Nhiều người yêu như vậy có mệt không? __answer__ Mệt dữ lắm
+bạn có người yêu chưa? __answer__ có
+người yêu bạn có tốt không? __answer__ hông
+bạn nghĩ sao về một quan hệ lâu dài? __answer__ có
+bạn có thực sự thích người ấy không? __answer__ có
+người ấy có quan tâm bạn không? __answer__ không
+bạn có bồ chưa? __answer__ Có rồi ông, xinh lắm
+bạn quen người yêu bạn như thế nào ? __answer__ Học chung trường chung lớp nhà gần nhau á
+bạn đã quen bao nhiêu người rồi? __answer__ Nhiều quá không đếm được
+bạn đang yêu đúng không? __answer__ Tui đang có bồ đó ông
+người yêu bạn tên gì? __answer__ Hỏi làm chi vậy ?
+người yêu bạn là trai hay gái? __answer__ Tui gay
+bạn có crush chưa __answer__ có rồi bạn
+thế bạn đã thổ lộ tình cảm chưa __answer__ chưa bạn
+tại sao không thổ lộ ? __answer__ vì sợ bị từ chối
+mình thấy bạn ấy cũng có tình cảm với bạn mà, bạn không nhận ra à ? __answer__ vậy ư
+mình giúp bạn tỏ tình nhé ? __answer__ ok bạn ơi, cảm ơn bạn nhiều
+Hôm nay em đi làm có vất vả không? __answer__ Hôm nay em đi làm thấy vui chứ không mệt
+Tối nay em đã ăn gì chưa? __answer__ Dạ em chưa ăn
+Mình đi ăn gì nha? __answer__ Dạ. mà ăn gì ạ
+Đi ăn bún bò nha? __answer__ Dạ
+nữa tiếng nữa anh rước em nha? __answer__ Dạ, vậy em chuẩn bị trước
+Bạn cho mình hỏi bạn có người yêu chưa? __answer__ Mình đã có người yêu được 2 tháng rồi
+Bạn cho mìn hỏi người yêu của bạn năm nay bao nhiêu tuổi? __answer__ Cô ấy năm nay 23 tuổi
+Người yêu của bạn học ngành gì? __answer__ Cô ấy học ngành ngôn ngữ anh
+Năm nay 21, 21 tuổi rồi, có bạn gái chưa? __answer__ Chưa, mình từ bỏ rồi, bay giờ máy Desktop ở nhà là bạn đời của mình.
+Sao kỳ vậy, bạn không muốn lập gia đình sau này à? __answer__ Có thì tốt, nếu không được thì thôi, mình không quan trọng hóa việc này.
+bạn có người yêu chưa? __answer__ mình đang độc thân
+bạn đang có crush ai không? __answer__ có nhưng mình xin không tiết lộ hihi
+bạn có đang để mắt đến ai không? __answer__ mình đang để mắt đến một bạn cùng lớp
+crush bạn có thích bạn không? __answer__ mình hi vọng thế
+bạn đã trải qua bao nhiêu mối tình rồi? __answer__ mình đã trải qua vô số mối tình rồi
+valentine này bạn có ai đi chơi cùng không? __answer__ rất tiếc là không có huhu
+Crush của bạn là người như nào? __answer__ Một người mang trong mình một tâm hồn mỏng manh
+Bạn đó có thích ca hát không? __answer__ Có chứ, hát hay là đằng khác
+Bạn biết crush bạn cao bao nhiêu không? __answer__ Mình không rõ nữa
+Crush bạn dễ thương không? __answer__ Mình thấy cũng được
+Rồi bạn thổ lộ chưa? __answer__ Mình chưa nữa
+lâu nay rồi bạn có bạn gái mới chưa? __answer__ mình có rồi
+hai bạn quen nhau bao lâu rồi? __answer__ tụi mình quen được 6 tháng rồi
+hai bạn bằng tuổi à? __answer__ không, bạn đó lớn hơn mình
+bạn đi làm gặp rồi quen nhau hay sao thế? __answer__ không, tụi mình ở cùng khu trọ
+bạn đó quê ở đâu? __answer__ bạn gái mình quê ở Cà Mau
+bạn cho mình hỏi bạn có người yêu chưa? __answer__ mình chưa có người yêu
+bạn cho mình hỏi sao bạn không có người yêu? __answer__ tại mình nghèo
+bạn cho mình hỏi bạn có crush ai không? __answer__ mình không có crush ai
+bạn cho mình hỏi sao bạn không crush ai? __answer__ tại mình không rảnh
+Cậu có bạn gái chưa? __answer__ Mình chưa có cậu ơi.
+Thật không vậy? __answer__ Thật mà, không nghĩ tới luôn.
+Cậu chia tay bạn gái rồi à? __answer__ Chia tay rồi, nên buồn lắm.
+Bạn gái của cậu có thích mua sắm không? __answer__ Có, mỗi tháng đều có đi mua sắm mà.
+Cậu làm gì khi crush buồn? __answer__ Thì dẫn đi ăn là được.
+Có người yêu cảm giác thế nào? __answer__ Có rồi thì thấy cũng khá vui.
+Khi nào m mới có người yêu đây, sau này định sống một mình à? __answer__ Đâu có, vì t chưa tìm được gu t thích thôi.
+Chứ gu m theo kiểu nào mà cân nhắc lắm thế __answer__ T theo kiểu Tây m ạ, mũi phải cao, dáng phải cao, da trắng cơ
+M cứ đòi hỏi kiểu đấy thì có ế tới già nhé? __answer__ Không đâu m ạ, thôi từ từ để t kiếm.
+Mà phải có tình cảm mới được nha? __answer__ Đương nhiên rồi, không có thì làm khổ nhau à
+Đúng rồi. Người yêu m phải là goodboy mới được. __answer__ Còn phải nói sao. hhihi
+Lớp tao có con bé này xinh lắm __answer__ Cho tao xin info với
+Tao vừa chia tay người yêu __answer__ ừ , tao biết rồi
+nãy crush vừa nhắn tin cho tao __answer__ Nó nói gì á ?
+Tao vừa tỏ tình với crush __answer__ Nó đồng ý không ?
+Mày có bạn gái chưa ? __answer__ Chưa, tao chưa có
+Lâu rồi không gặp, có người yêu chưa? __answer__ Vừa chia tay 2 tuần rồi.
+Hiện giờ có đang thích ai không? __answer__ Hiện tại có crush một bạn trong lớp Anh văn.
+Mẫu người lý tưởng của mày là gì? __answer__ Chỉ cần cao 1m6, gương mặt dễ nhìn là được.
+Mày biết tên hay nick facebook của nhỏ đó chưa? __answer__ Chưa hỏi thăm gì nhiều, mới nói vài câu à.
+Nhỏ bằng tuổi mình hay nhỏ hơn? __answer__ Nó nhỏ hơn mình 2 tuổi.
+Bạn quen anh đó được bao lâu rồi? __answer__ Mình quen cũng gần 3 năm rồi
+Bạn đã trải qua bao nhiêu mối tình rồi? __answer__ Mình đã trải qua 3 mối tình
+Tại sao bạn không công khai người yêu? __answer__ Vì hiện tại mình chưa có người yêu
+Bạn có crush ai không? __answer__ Mình có thích một người ^^
+Bạn thích ai vậy? __answer__ Còn lâu tui mới nói
+Dạo này mình có nhiều chuyện buồn. Bạn có thể tâm sự cũng mình được không? __answer__ Đương nhiên là mình có thể tâm sự với bạn rồi
+Người yêu mình dạo này hay cải nhau với mình. Bạn có thể cho mình lời khuyên để làm hòa được không? __answer__ Bạn hãy chủ động mua quà tặng hay dẫn bạn ấy đi ăn rồi chủ động làm hòa
+Sao anh không nhắn tin với em? __answer__ Anh phải tăng ca trên công ty nên không nhắn tin được
+Sao anh không nghe điện thoại của em? __answer__ Điện thoại anh bị mất sóng nên không nhận được thông báo cuộc gọi
+Sao bạn về phòng trể vậy? __answer__ Mình phải ở lại trường để làm bài tập với bạn nên về hơi trể
+Bệnh của em đã khỏi hẵn chưa? __answer__ Bệnh nhẹ rồi nhưng chưa khỏi hẵn ạ
+Cậu đã ăn cơm chưa? __answer__ Mình đã ăn cơm rồi
+Cậu có người yêu chưa? __answer__ Tớ vẫn còn độc thân
+Cậu có thích tớ không? __answer__ Hihi.Tớ chỉ xem cậu là bạn.
+Cậu có thích đi Đà Lạt vào cuối tuần này không?Mình có 2 vé nhưng chưa ai đi cùng. __answer__ Thú vị đấy?Có lẽ tớ sẽ đi cùng cậu.
+Dạo này anh bận quá, không có thời gian đi chơi với em, em có buồn không? __answer__ Không sao ạ, sự nghiệp vẫn là quan trọng hơn cả
+Xong việc lần này, mình đi chơi xa em nhé __answer__ Ok anh, nghe cũng được đấy
+Thế em muốn đi đâu __answer__ Đà lạt anh nhé
+Em có còn yêu anh nữa không? __answer__ Em kó.
+lâu nay rồi bạn có bạn gái mới chưa? __answer__ mình có rồi
+hai bạn quen nhau bao lâu rồi? __answer__ tụi mình quen được 6 tháng rồi
+hai bạn bằng tuổi à? __answer__ không, bạn đó lớn hơn mình
+bạn đi làm gặp rồi quen nhau hay sao thế? __answer__ không, tụi mình ở cùng khu trọ
+bạn đó quê ở đâu? __answer__ bạn gái mình quê ở Cà Mau
+Cậu quen cô ấy lâu chưa? __answer__ Hihi bọn mình quen nhau được 6 năm rồi ă cậu
+Cậu có phước ghê ă, người yêu cậu xinh phết nhĩ __answer__ Hihi tất nhiên rồi, người yêu tớ mà.
+Cô người yêu cậu năm nay bao nhiêu mùa hoa mai rồi? __answer__ cô ấy năm nay 20t ă
+Cô ấy xinh thế chắc nhà giàu lắm cậu nhĩ __answer__ Đúng rồi nhà cô ấy cũng khá ă cậu
+Dạo này, cậu với người yêu tiến triển sao rồi ? __answer__ Bọn tớ cũng nói chuyện, đi chơi với nhau bình thường thôi
+Ồ, vậy có thường hay đi chơi với nhau không ? __answer__ Có, trong tuần với cuối tuần ngày nào rãnh cũng đi
+Được vậy, hai cậu thường đi chơi hay đi ăn đấy ? __answer__ Bọn tớ thường đi ăn nhiều hơn
+Các cậu thường đi ăn ở đâu vậy, giới thiệu tớ vài chỗ dẫn bạn gái đi ăn với ? __answer__ Bọn tớ cũng xem các blog, post về đồ ăn trên instagram thấy ngon rồi tìm địa chỉ thôi
+Oh, thế vậy các cậu thường đi đâu chơi ? __answer__ Tớ hay chở người yêu đi dạo phố với vô các trung tâm thương mại
+Được nhá, cậu đi chơi với người yêu nhiều vậy thì thấy tính tình bạn ấy sao ? __answer__ Thì bạn ấy cũng dễ thương, hiền lành, dễ tính, cũng có chung sở thích
+Được thế thì chừng nào hai cậu dẫn ra mắt gia đình đấy ? __answer__ Còn sớm, giờ này thì còn hơi ngại, nhưng cũng sắp
+Bạn ơi, bạn đã có người yêu chưa? __answer__ Mình chưa, mình còn đang sợ ế đây nè.
+Còn bạn thì sao, đã có người thương chưa? __answer__ Mình cũng như bạn thôi, đã có người yêu đâu...
+Này, bạn thấy crush của tôi thế nào? __answer__ Trông cũng xinh xắn, cá tính đấy
+Bạn chỉ tui cách cưa bạn ấy được không? __answer__ Cái này tui thua bạn ơi, tui còn đang ế đây này
+Dạo này em người yêu của tui dễ nổi nóng nhỉ? __answer__ Chắc bạn làm gì khiến em ấy giận rồi
+dạo này nghe nói bạn tui có bồ à? __answer__ bồ đâu mà bồ, crush thôi mày ơi
+cho coi hình xem nào? __answer__ méo cho, bí mật
+giận nhau à? __answer__ giận miết chán ghê
+mầy crush em nào chưa? __answer__ yêu đương gì tầm này
+hẹn crush đi ăn chưa? __answer__ ngại lắm
+muốn ế tiếp à? __answer__ nồ nố nô
+N ơi,tớ nhận ra tớ biết yêu rồi ? __answer__ Lan chứ gì
+Sao cậu biết hay thế, cậu theo dõi tớ à ? __answer__ Nhìn là biết
+N có biết là Lan rất xinh không ? __answer__ Ừm
+Lại dễ thương nũa chứ biết không ? __answer__ Ừm
+Cô ấy vừa nói với tớ là có biết cậu đấy N à ? __answer__ Ra vậy
+Cậu có người yêu chưa? __answer__ Mình có rồi
+Cậu đang thích ai đấy? __answer__ Tớ đang thích XXX
+Cậu có bạn trai chưa? __answer__ Mình chưa có
+Cậu có bạn gái chưa? __answer__ Tạm thời thì chưa có
+Hai cậu quen nhau lâu chưa? __answer__ Mình quen nhau được 2 năm rồi
+Gia đình hai cậu biết không? __answer__ Chưa biết
+cậu có thích ai không? __answer__ tớ có cậu
+vậy cậu có tỏ tình hay gì chưa? __answer__ tớ chưa câuk ơi
+dạo này cậu sao rồi còn crush bạn T không? __answer__ mình còn á ngày nào mình cũng ngắm bạn ấy hết
+cậu crush bạn ấy được bao lâu rồi? __answer__ cũng được tầm 3 4 năm rồi ấy cậu
+cậu crush cậu áy lâu vậy. Sao cậu chưa tỏ tình vậy? __answer__ do mình thiếu can đảm và tự tin ấy cậu
+còn cậu dạo này cậu với người yêu của cậu sao rồi? __answer__ tớ ấy hả. Tớ với người yêu tớ vẫn vậy à
+cậu có hay đi chơi với người yêu không? __answer__ ít lắm cậu ơi. Tụi mình 2 tuần mới đi chơi một lần
+mai crush tao cuới rồi, tao phải làm sao đây __answer__ thì đi dự đám cưới chúc mừng chứ sao
+sao tao fa hoài vậy ta __answer__ hmm... chắc tại mặt mày mụn
+làm sao cưa dược bạn ấy? __answer__ đẹp trai tài giỏi và giàu
+làm sao có người yêu? __answer__ bạn phải thành đạt trước đã
+tao thích cô ấy __answer__ vậy thì hãy phấn đấu theo đuổi cô ấy
+Hình như tớ nghĩ tớ đã biết yêu rồi đấy cậu à ? __answer__ Lan chứ gì
+Sao cậu lại đoán ra được tên cô ấy thế ? __answer__ Nhìn là biết
+Cô ấy rất đẹp đối với tớ cậu biết không ? __answer__ Ừm
+Ngoài ra cô ấy còn rất dễ thương nữa chứ cậu biết không ? __answer__ Ừm
+Thật ra cô ấy nói cô ấy có biết cậu đấy N à ? __answer__ Ra vậy
+Bạn thích mình không? __answer__ Mình rất thích bạn
+Đi nhảy đầm với mình không? __answer__ Ok, tôi nay hẹn bạn 10h
+Trong bạn ngại ngùng thật đáng yêu? __answer__ Cảm ơn bạn
+Mình thích bạn lâu rồi, làm người yêu mình nhé? __answer__ Ok, mình đồng ý
+Tìm giúp mình xem ai sẽ là người yêu mình sắp tới? __answer__ Mình chứ còn ai nữa
+Hãy thử nói 1 câu thả thính? __answer__ Bầu trời xanh, làn mây trắng. Em yêu nắng hay yêu anh?
+bạn ăn cơm chưa? __answer__ chưa mình chưa ăn cơm
+bạn thấy tôi thế nào? __answer__ trông bạn rất đẹp trai nhưng không bằng tôi
+em ăn cơm chưa? __answer__ em nào???? Nhầm trà xanh nào rồi???
+sao bạn đẹp trai vậy mà vẫn chưa có người yêu thế? __answer__ mình đẹp nhưng mình chảnh lắm bạn nên mình không có người yêu
+Bạn có bị cắm sừng chưa? __answer__ Có bồ đâu mà mình bị cắm sừng.
+bạn có thích con gái không? __answer__ không mình thích con trai
+em ăn cơm chưa? __answer__ em ăn cơm gòi
+Cậu có người yêu chưa ? __answer__ Tớ có em gái nuôi.
+Cậu thích em gái tới đúng không ? __answer__ Đúng rồi đấy hi hi.
+em ơi em ăn riêu cua riêu cá nhiều rồi thế cho anh hỏi em đã ăn real love bao giờ chưa ? __answer__ em chưa ạ, em đã có người yêu đâu, em còn đang sợ ế đây này
+Bạn ăn cơm với gì? __answer__ Sao bạn nhạt quá vậy.
+Nghe đồn mày với người yêu mày mới chia tay hả ? __answer__ huhu nó bỏ tao rồi
+cho mình hỏi khi nào bạn hết ế? __answer__ chắc hơn 30.
+bạn dự tính tương lai bạn thế nào? __answer__ Kiếm tiền ?
+Anh sẽ yêu em bao lâu? __answer__ 4 ngày, Xuân, Hạ, Thu, Đông.
+Yêu đến lần thứ bảy được gọi là tình gì? __answer__ Thất Tình
+chào bot __answer__ chào bạn
+xin chào __answer__ xin chào bạn
+bạn yêu ai chưa? __answer__ mình đang yêu đơn phương một người
+bạn thích điều gì ở người kia __answer__ người ấy dễ gần, hoà đồng
+Làm sao biết được người kia có ngoại tình? __answer__ Hỏi người ấy
+em và mẹ anh rơi xuống sông, anh sẽ cứu ai __answer__ anh không biết bơi
+Bạn có thích mình không? __answer__ không nha bạn
+Bạn thấy mình có đẹp trai không? __answer__ lại càng không nha bạn
+Đổi bồ không? __answer__ chơi

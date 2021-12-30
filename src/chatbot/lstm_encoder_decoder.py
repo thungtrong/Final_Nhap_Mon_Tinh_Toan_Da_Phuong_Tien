@@ -5,7 +5,7 @@ from keras.models import Model
 from keras.layers import Input
 from tensorflow.keras.models import load_model
 
-MODEL_FILE_NAME = 'NLP_LSTM_model_Encoder_Decoder.h5'
+MODEL_FILE_NAME = 'Chatbot_LSTM_Encoder_Decoder.h5'
 WORD2INDEX_FILE_NAME = 'word2index.pkl'
 INDEX2WORD_FILE_NAME = 'index2word.pkl'
 

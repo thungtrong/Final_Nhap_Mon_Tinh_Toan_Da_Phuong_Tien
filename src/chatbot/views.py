@@ -20,19 +20,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 # Import model
-from .neural_network import decoder_model, encoder_model, word2index, index2word
+from .lstm_encoder_decoder import decoder_model, encoder_model, word2index, index2word
 
 # TO-DO: su dung Async
 from asgiref.sync import sync_to_async
-
-# MODEL_FILE_NAME = 'watermark_model.h5'
-# TOKEN_FILE_NAME = 'tokenizer.pickle'
-# FILE_MODEL = os.path.join(settings.BASE_DIR, MODEL_FILE_NAME)
-# FILE_TOKENIZER = os.path.join(settings.BASE_DIR, TOKEN_FILE_NAME)
-
-# FILE_MODEL = os.path.join(settings.BASE_DIR, MODEL_FILE_NAME)
-# FILE_TOKENIZER = os.path.join(settings.BASE_DIR, TOKEN_FILE_NAME)
-
 
 def text_process(mess):
     # chuyển về chữ thường
